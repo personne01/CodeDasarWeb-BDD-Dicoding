@@ -1,0 +1,46 @@
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+nav a:hover{
+    font-weight: bold;
+}
+.profile header{
+    text-align: center;
+}
+.profile img {
+    width: 25vw;
+}
+.profile section{
+    width: 25%;
+}
+table{
+    border-collapse: separate;
+    text-align: center;
+}
+table tr td:first-child{
+    font-weight: bold;
+}
+table tr td:nth-child(2){
+    text-align: left;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 50px;
+    color: white;
+}
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img{
+    width: 200px;
+}
