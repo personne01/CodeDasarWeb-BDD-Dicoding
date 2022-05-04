@@ -11,9 +11,11 @@
 
 <body>
     <header>
-        <nav>
+        <div class="jumbotron">
             <h1>Bandung</h1>
             <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut</p>
+        </div>
+        <nav>
             <ul>
                 <li><a href="#">Sejarah</a></li>
                 <li><a href="#">Geografis</a></li>
@@ -21,11 +23,11 @@
             </ul>
         </nav>
     </header>
-    <aside>
-        <article class="history">
+    <main>
+        <article class="history card" id="content">
             <h1>Sejarah</h1>
             <img src="assets/image/history.jpg" alt="Sejarah" class="featured-image">
-            <caption>
+            <figcaption>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Veritatis quos ad ratione assumenda accusamus nulla a adipisci
                 natus aperiam. Enim esse alias omnis. Nemo omnis placeat eveniet
@@ -37,19 +39,18 @@
                 distinctio fuga nesciunt, sapiente ullam. Alias iste cumque molestiae consectetur
                 doloremque fugit aperiam adipisci animi assumenda, dolore numquam optio dicta eum
                 repellendus error iure velit sit facere.
-            </caption>
+            </figcaption>
         </article>
-    </aside>
-    <aside>
-        <article class="profile">
-            <header>
-                <h1>Kota Bandung</h1>
-                <p>Kota Kembang Paris Van Java</p>
-                <img src="assets/image/Bandung_coa.png" alt="Lambang">
-                <figure>Lambang</figure>
-            </header>
+        <aside>
+            <article class="profile card">
+                <div>
+                    <h1>Kota Bandung</h1>
+                    <p>Kota Kembang Paris Van Java</p>
+                    <img src="assets/image/Bandung_coa.png" alt="Lambang">
+                    <figure>Lambang</figure>
+                </div>
 
-            <section>
+
                 <a href="#">Informasi Lainnya</a>
                 <table>
                     <tr>
@@ -73,9 +74,11 @@
                         <td>+62 22</td>
                     </tr>
                 </table>
-            </section>
-        </article>
-    </aside>
+
+            </article>
+        </aside>
+    </main>
+
     <footer>
         <h1>Belajar Dasar Pemrograman Web 2019 &copy;, Dicoding Academy</h1>
     </footer>
